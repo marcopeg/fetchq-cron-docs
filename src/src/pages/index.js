@@ -103,6 +103,21 @@ function Home() {
             </div>
           </section>
         )}
+        <section className={styles.features}>
+          <div className="container">
+            <h2>What is this?</h2>
+            <p>
+              <em>Fetchq CRON</em> is a NodeJS App (API + WebConsole) that let
+              you schedule and manage the execution of time based tasks defined
+              as:
+            </p>
+            <ul>
+              <li>Smart Webhooks</li>
+              <li>Docker Functions (planned)</li>
+              <li>Lambda Functions (planned)</li>
+            </ul>
+          </div>
+        </section>
       </main>
     </Layout>
   );
