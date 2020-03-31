@@ -9,7 +9,6 @@
 
 module.exports = {
   someSidebar: {
-    'Fetchq CRON': ['get-started', 'contribute', 'license'],
-    // Features: ['mdx'],
+    'Fetchq CRON': ['get-started', 'troubleshooting', 'contribute', 'license'],
   },
 };

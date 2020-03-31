@@ -1,6 +1,6 @@
 ---
 id: license
-title: Fetchq CRON MIT License
+title: License
 sidebar_label: License
 ---
 

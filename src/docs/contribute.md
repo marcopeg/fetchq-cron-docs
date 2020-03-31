@@ -1,6 +1,6 @@
 ---
 id: contribute
-title: Contribute to Fetchq CRON
+title: Contribute
 sidebar_label: Contribute
 ---
 

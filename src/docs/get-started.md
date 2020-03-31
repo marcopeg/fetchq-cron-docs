@@ -1,7 +1,7 @@
 ---
 id: get-started
-title: Get Started with Fetchq CRON
-sidebar_label: Get started
+title: Get Started
+sidebar_label: Get Started
 ---
 
 ## Run Fetchq CRON on Heroku
