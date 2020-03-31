@@ -18,31 +18,33 @@ import styles from './styles.module.css';
 const features = [
   {
     title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/undraw_barbecue_3x93.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Quickly deploy recurring tasks based on cron rules, calendar or simple
+        delay. Follow on each task execution with detailed logs.
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: <>API First</>,
+    imageUrl: 'img/undraw_calendar.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Integrate recurring tasks in your application is as easy as making an
+        <em> HTTP</em> request. Create, re-program and drop tasks from within
+        your App!
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: <>Powered by Postgres</>,
+    imageUrl: 'img/undraw_predictive_analytics_kf9n.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Fetchq CRON can easily handle tens of millions of tasks thanks to the
+        crazy performances of _Postgres_. You can easily scale your CRON cluster
+        so to handle any workload you may need.
       </>
     ),
   },
@@ -67,9 +69,7 @@ function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+    <Layout title={`Run smart cron jobs`} description="Run smart cron jobs">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -80,7 +80,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/doc1')}>
+              to={useBaseUrl('docs/get-started')}>
               Get Started
             </Link>
           </div>

@@ -101,7 +101,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/marcopeg/fetchq-cron-docs/edit/master/website/',
+            'https://github.com/marcopeg/fetchq-cron-docs/edit/master/src/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

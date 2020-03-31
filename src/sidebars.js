@@ -9,7 +9,7 @@
 
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    'Fetchq CRON': ['get-started', 'contribute', 'license'],
+    // Features: ['mdx'],
   },
 };
